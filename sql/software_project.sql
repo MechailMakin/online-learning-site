@@ -1,7 +1,6 @@
 DROP DATABASE IF EXISTS e_learning;
 CREATE DATABASE e_learning;
 
-
 CREATE TABLE Instructor(
 id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 f_name VARCHAR (30),
@@ -10,6 +9,7 @@ l_name VARCHAR (30),
 birth_date DATE,
 degree VARCHAR(50)
 );
+
 
 CREATE TABLE Courses(
 id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
