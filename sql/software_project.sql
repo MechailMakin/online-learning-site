@@ -10,6 +10,7 @@ birth_date DATE,
 degree VARCHAR(50)
 );
 
+
 CREATE TABLE Courses(
 id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 Course_name VARCHAR(70),
